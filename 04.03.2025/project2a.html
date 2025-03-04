@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Connect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #0073e6; /* Dark blue header */
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .sub-header {
+            font-size: 20px;
+            margin: 20px;
+            color: #333;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: separate;
+            border-spacing: 10px;
+        }
+        td {
+            padding: 10px;
+            font-size: 16px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .set-btn {
+            background-color: #28a745;
+            color: white;
+        }
+        .reset-btn {
+            background-color: #dc3545;
+            color: white;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        /* Footer Styling */
+        .footer {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Student's Connect</div>
+    <div class="sub-header">Welcome to Student Connect</div>
+
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="first_name" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="last_name" required></td>
+                </tr>
+                <tr>
+                    <td>Email ID:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input type="password" name="confirm_password" required></td>
+                </tr>
+            </table>
+            
+            <div class="buttons">
+                <button type="submit" class="set-btn">Set</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Student's Connect. All Rights Reserved.
+    </div>
+</body>
+</html>
